@@ -4,32 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/unidad1/css/styles.css">
+    <link rel="stylesheet" href="/unidad1/css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Permanent+Marker&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
     <title>Curriculum Vitae</title>
   </head>
 
   <body>
     <header><h1>| Leonel Andres Messi Cuccittini |</h1></header>
     <hr />
-
-    <nav><img src="imagen/messi.jpg" alt="imagen messi" /></nav>
-
+    <nav><img class="foto" src="imagen/messi.jpg" alt="imagen messi" /></nav>
     <ul>
-      <li><h2>Nacimiento: 24 de junio de 1987 (34 años)</h2></li>
-      <li><h2>Nacionalidad: Argentina / España</h2></li>
-      <li><h2>Apodo: Lio - Leo - La Pulga - Ankara</h2></li>
-      <li><h2>Futbolista</h2></li>
-      <li>
-        <h2>
-          Equipos: Newell's Old Boys (1994-1999) | F. C. Barcelona (2000-2021)
-        </h2>
-      </li>
+      <h2>Nacimiento: 24 de junio de 1987 (34 años)</h2>
+      <h2>Nacionalidad: Argentina / España</h2>
+      <h2>Apodo: Lio - Leo - La Pulga - Ankara</h2>
+      <h2>Futbolista</h2>
+      <h2>
+        Equipos: Newell's Old Boys (1994-1999) | F. C. Barcelona (2000-2021)
+      </h2>
     </ul>
     <hr />
-    <section><h3>TRAYECTORIA:</h3></section>
-    <hr />
+
     <p id="parrafo">
-      <h4>
       Considerado con frecuencia el mejor jugador del mundo y uno de los mejores
       de todos los tiempos, es el único futbolista en la historia que ha ganado,
       entre otras distinciones, seis veces el Balón de Oro (dos Balones de Oro y
@@ -44,42 +45,47 @@
       goles en la Liga de Campeones de la UEFA, además de máximo goleador del F.
       C. Barcelona y de la selección argentina. Es el futbolista con más
       asistencias, desde que se tienen registros, en partidos oficiales.
-      </h4>
     </p>
     <hr />
     <section>
-    <p><a href="videosMusica.html"><h3> VIDEOS</h3> </a></p></section>
-    <hr />
-    <section><audio src="cancion/PortaNuncaVolvera.mp3" controls></audio></section>
+      <p>
+        <a href="videosMusica.html"><h3>VIDEOS</h3> </a>
+      </p>
+    </section>
     <hr />
     <section>
-      <form> 
-        <fieldset> 
+      <audio src="cancion/PortaNuncaVolvera.mp3" controls></audio>
+    </section>
+    <hr />
+    <section>
+      <form>
+        <fieldset>
           <legend><h3>CONTACTO</h3></legend>
           <div>
             <label for="nombre">Nombre completo</label>
-            <br>
-            <input type="text" id="nombre" name="nombrecompleto">
+            <br />
+            <input type="text" id="nombre" name="nombrecompleto" />
           </div>
-          <br>
+          <br />
           <div>
             <label for="email">Correo electronico</label>
-            <br>
-            <input type="email" id="email" name="email">
+            <br />
+            <input type="email" id="email" name="email" />
           </div>
-          <br>
+          <br />
           <div>
-            Hombre: <input type="radio" name="genero" value="Hombre">
-            Mujer: <input type="radio" name="genero" value="Mujer">
-            Otro: <input type="radio" name="genero" value="Otro">
+            Hombre: <input type="radio" name="genero" value="Hombre" /> Mujer:
+            <input type="radio" name="genero" value="Mujer" /> Otro:
+            <input type="radio" name="genero" value="Otro" />
           </div>
-          <br>
+          <br />
           <textarea name="" id="" cols="60" rows="10"></textarea>
-          <br>
-          <br>
-          <input type="submit" value="Enviar"> <input type="reset" value="Limpiar campos">
+          <br />
+          <br />
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpiar campos" />
         </fieldset>
-      </form>  
+      </form>
     </section>
   </body>
 </html>

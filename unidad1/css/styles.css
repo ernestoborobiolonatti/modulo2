@@ -1,12 +1,3 @@
-h1 {
-  color: white;
-  background-color: black;
-}
-
-h3 {
-  background-color: white;
-}
-
 body {
   background-color: lightsteelblue;
 }
@@ -15,12 +6,31 @@ a:visited {
   color: black;
 }
 
-.videos {
-  color: white;
+#parrafo {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20pt;
+  width: 1500px;
+  height: 350px;
+  border-radius: 40px;
+  background-color: mintcream;
+  padding: 20px;
+  box-shadow: 0 0 20px rgb(121, 197, 245);
+  margin: 0 auto;
 }
 
-#parrafo {
-  color: black;
-  background-color: lightsteelblue;
-  font-size: 20pt;
+h1 {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  font-size: 45pt;
+}
+
+h2 {
+  font-family: "Special Elite", cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+.foto {
+  float: right;
+  width: 550px;
 }
