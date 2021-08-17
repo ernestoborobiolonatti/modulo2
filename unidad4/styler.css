@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+.h3 {
+  color: tomato;
+  font-size: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+.row {
+  padding-top: 30px;
+}
+.container {
+  display: grid;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px 10px;
+  padding: 20px;
+  gap: 5px;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.img {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.formulario {
+  border: solid;
+  border-radius: 10px;
+  width: 500px;
+  align-content: center;
+  text-align: center;
+}
+
+.container-formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: 100px;
+}
